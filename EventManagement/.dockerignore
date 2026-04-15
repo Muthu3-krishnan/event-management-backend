@@ -1,0 +1,17 @@
+target
+.git
+.gitignore
+.idea
+.vscode
+*.iml
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven cache (optional but recommended)
+.mvn
