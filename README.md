@@ -1,0 +1,1 @@
+A scalable Event Management Backend API built to handle user authentication, event creation, and event registration workflows. This project demonstrates backend development using RESTful architecture and secure authentication mechanisms
