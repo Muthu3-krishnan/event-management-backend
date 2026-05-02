@@ -33,7 +33,7 @@ public class Eventcontroller {
 	public ResponseEntity<ResponseStructure<Event>> createEvent(@RequestBody Event event){
 		return eventservice.createEvent(event);
 	}
-	@CrossOrigin(origins = "http://localhost:3000")
+	@CrossOrigin(origins = "https://event-management-frontend-livid-three.vercel.app")
 	@GetMapping
 	public ResponseEntity<ResponseStructure<List<Event>>> getAllEvent(){
 		return eventservice.getAllEvent();
