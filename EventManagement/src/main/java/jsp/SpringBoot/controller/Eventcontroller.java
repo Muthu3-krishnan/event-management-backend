@@ -21,7 +21,7 @@ import jsp.SpringBoot.entity.Event;
 import jsp.SpringBoot.entity.Organizer;
 import jsp.SpringBoot.entity.Venue;
 import jsp.SpringBoot.service.Eventservice;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://event-management-frontend-livid-three.vercel.app")
 @RestController
 @RequestMapping("/event")
 public class Eventcontroller {
