@@ -18,7 +18,7 @@ import jsp.SpringBoot.dto.ResponseStructure;
 import jsp.SpringBoot.entity.Attendee;
 import jsp.SpringBoot.entity.Registration;
 import jsp.SpringBoot.service.Attendeeservice;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://event-management-frontend-livid-three.vercel.app")
 @RestController
 @RequestMapping("/attendee")
 public class Attendeecontroller {
