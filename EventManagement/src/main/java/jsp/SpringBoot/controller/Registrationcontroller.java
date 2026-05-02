@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import jsp.SpringBoot.dto.ResponseStructure;
 import jsp.SpringBoot.entity.Registration;
 import jsp.SpringBoot.service.Registrationservice;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://event-management-frontend-livid-three.vercel.app")
 @RestController
 @RequestMapping("/registration")
 public class Registrationcontroller {
