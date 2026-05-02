@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import jsp.SpringBoot.dto.ResponseStructure;
 import jsp.SpringBoot.entity.Organizer;
 import jsp.SpringBoot.service.Organizerservice;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://event-management-frontend-livid-three.vercel.app")
 @RestController
 @RequestMapping("/organizer")
 public class Organizercontroller {
