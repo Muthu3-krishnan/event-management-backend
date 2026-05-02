@@ -20,7 +20,7 @@ import jsp.SpringBoot.entity.Attendee;
 import jsp.SpringBoot.entity.Event;
 import jsp.SpringBoot.entity.Venue;
 import jsp.SpringBoot.service.Venueservice;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://event-management-frontend-livid-three.vercel.app")
 @RestController
 @RequestMapping("/venue")
 public class Venuecontroller {
